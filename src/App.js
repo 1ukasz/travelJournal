@@ -1,12 +1,26 @@
-import Header from "./Header"
-import Journal from "./Journal"
-
+import Header from "./components/Header"
+import Journal from "./components/Journal"
+import data from "./data"
 
 function App() {
+  const mapped = data.map(item => {
+    return(
+      <div><Journal 
+      key={item.id}
+      {...item}
+      /> 
+      <hr />
+      </div>
+    )
+  }
+  )
   return (
     <div className="App">
       <Header />
-      {/* <Journal /> */}
+      <div className="content">
+      {mapped}
+      
+      </div>
     </div>
   );
 }

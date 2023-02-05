@@ -1,0 +1,58 @@
+.journal-post{
+    padding: 30px 0;
+    display: flex;
+ }
+
+.location{
+    display: flex;
+    align-items: center;   
+}
+
+.title{
+    font-family: 'Inter';
+    font-size: 30px;
+    color: #2B283A;
+    margin: 0;
+}
+.photo-div{
+    height: 270px;
+    width: 200px;
+    object-fit:cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: block;
+}
+
+.country{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    margin-left: 6px
+}
+
+.date{
+    font-family: 'Inter';
+    font-size: 15px;
+    line-height: 12px;
+    color: #2B283A;
+ }
+
+.description{
+    width: 90%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: #2B283A;
+}
+
+.google-link{
+    margin-left: 20px;
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #918E9B;
+}
