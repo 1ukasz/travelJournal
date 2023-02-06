@@ -56,3 +56,29 @@
     font-size: 14px;
     color: #918E9B;
 }
+
+@media (max-width: 700px) {
+ 
+    .photo-div{
+        scale: 0.8;
+        margin: 0 auto;
+        
+    }
+    .location{
+     justify-content: space-around;
+     margin: 0 40px;
+    }
+
+    .country{
+        margin-right: auto;
+    }
+    .description{
+        font-size: 0.8em;
+        text-align: start;
+        margin: 0 auto;
+    }
+    .journal-post{
+    display: block;
+    text-align: center;
+    }
+  }

@@ -33,3 +33,21 @@ hr{
   width: 90%;
   opacity: 30%;
 }
+
+@media (max-width: 1300px) {
+  .content{
+    width: 80%;
+  }
+  #header{
+    width: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  .content{
+    width: 100%;
+  }
+  #header{
+    width: 100%;
+  }
+}
